@@ -30,3 +30,7 @@ mv data/references/silva.seed.pcr.align data/references/silva.v4.align
 
 # Run mothur through the various quality control steps
 code/mothur/mothur code/get_good_seqs.batch
+
+#set.current(inputdir=data/mothur, outputdir=data/mothur, processors=8)
+#get.groups(count=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.uchime.pick.pick.count_table, fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.fasta, taxonomy=stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.v4.wang.pick.taxonomy, groups=Mock-Mock2)
+#seq.error(fasta=current, count=current, reference=data/references/HMP_MOCK.v4.fasta, aligned=F, processors=8)
