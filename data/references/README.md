@@ -1,4 +1,5 @@
-README
+#README
+
 Obtained the silva reference alignment from the mothur website:
 ```bash
 wget http://mothur.org/w/images/1/15/Silva.seed_v123.tgz
