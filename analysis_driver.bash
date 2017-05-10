@@ -36,3 +36,7 @@ code/mothur/mothur code/get_error.batch
 
 #Run cleaned up data through get otu distances
 code/mothur/mothur code/get_shared_otus.batch
+
+#Generate nmds axes file for plotting from shared filed
+code/mothur/mothur code/get_nmds_data.batch
+
