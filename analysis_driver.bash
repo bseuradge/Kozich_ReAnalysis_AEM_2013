@@ -1,3 +1,4 @@
+source('code/plot_nmds.R'); plot_nmds('data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.thetayc.0.03.lt.ave.nmds.axes')
 #/usr/bin/env bash
 
 # Download the raw data and put them into the data/raw directory
@@ -40,3 +41,5 @@ code/mothur/mothur code/get_shared_otus.batch
 #Generate nmds axes file for plotting from shared file
 code/mothur/mothur code/get_nmds_data.batch
 
+#Plot NMDS
+R -e "source('code/plot_nmds.R'); plot_nmds('data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.thetayc.0.03.lt.ave.nmds.axes')"
