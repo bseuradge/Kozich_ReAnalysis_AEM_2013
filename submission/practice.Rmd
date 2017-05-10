@@ -5,7 +5,7 @@ date: "May 10 2017"
 output: html_document
 ---
 
-```{r scaling_up, echo-FALSE}
+```{r scaling_up, echo=FALSE}
  shared_file_name <- "data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.shared"
  shared_file <- read.table(file=shared_file_name, header=T, stringsAsFactors=F)
  sequence_counts <- rowSums(shared_file[,-c(1,2,3)])
@@ -13,9 +13,7 @@ output: html_document
  million_sequence_counts <- sum(sequence_counts)/1e6
  average_sequence_counts <- mean(sequence_counts)
  percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
-
 ```
-
 
 **Scaling up.** The advantage of the dual-index approach is that a large number of samples
 can be sequenced using a number of primers equal to only twice the square root of the
@@ -39,3 +37,7 @@ again showed the separation between the early and late periods and increased sta
 with age (Fig. 4) (Mantel test coefficient, 0.81; P < 0.001). These results clearly
 indicate that our approach can be scaled to multiplex large numbers of samples.
 
+    
+**FIG 4** Principal coordinate ordination of YC values (28) relating the
+community structures of the fecal microbiota from 12 mice collected on days
+0 through 9 (Early) and days 141 through 150 (Late) after weaning.
