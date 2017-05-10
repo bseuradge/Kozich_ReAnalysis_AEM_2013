@@ -1,6 +1,6 @@
 ---
-title: reproducing Kozich et al. 2013
-authour: Brent Seuradge
+title: Reproducing Kozich et al. 2013
+author: "Brent Seuradge"
 date: "May 10 2017"
 output: html_document
 ---
