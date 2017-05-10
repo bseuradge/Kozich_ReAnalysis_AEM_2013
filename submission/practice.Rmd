@@ -1,11 +1,11 @@
 ---
 title: Reproducing Kozich et al. 2013
-author: "Brent Seuradge"
+author: Brent Seuradge
 date: "May 10 2017"
 output: html_document
 ---
 
-```{r}
+```{r scaling_up, echo-FALSE}
  shared_file_name <- "data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.shared"
  shared_file <- read.table(file=shared_file_name, header=T, stringsAsFactors=F)
  sequence_counts <- rowSums(shared_file[,-c(1,2,3)])
