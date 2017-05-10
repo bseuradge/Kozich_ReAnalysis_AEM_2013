@@ -64,6 +64,9 @@ again showed the separation between the early and late periods and increased sta
 with age (Fig. 4) (Mantel test coefficient, 0.81; P < 0.001). These results clearly
 indicate that our approach can be scaled to multiplex large numbers of samples.
 
+
+![](../results/figures/nmds_figure.png)
+
     
 **FIG 4** Principal coordinate ordination of YC values (28) relating the
 community structures of the fecal microbiota from 12 mice collected on days
