@@ -1,4 +1,7 @@
 ---
+title: reproducing Kozich et al. 2013
+authour: Brent Seuradge
+date: "May 10 2017"
 output: html_document
 ---
 
